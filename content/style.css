@@ -59,3 +59,12 @@ html, body {
 #main-section {
 	margin-top: 0px;
 }
+
+.blinking{
+ 	animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #fff;	}
+	50%{	color: transparent;	}
+	100%{	color: #fff;	}
+}
