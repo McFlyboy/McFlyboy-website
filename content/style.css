@@ -1,6 +1,7 @@
 html, body {
 	background-color: #333333;
 	color: white;
+	text-shadow: 1px 1px #222222;
 	font-family: consolas;
 	font-size: 20px;
 }
@@ -60,23 +61,46 @@ html, body {
 #main-section h1 {
 	font-size: 45px;
 }
+#main-section h2 {
+	text-align: center;
+}
 #main-section article {
 	background-color: #555555;
 	border-radius: 5px;
 	width: 60%;
 	text-align: left;
-	text-shadow: 1px 1px #222222;
 	padding: 30px;
 	margin: auto;
 	margin-top: 70px;
+}
+#main-section a {
+	color: #ff6666;
+}
+#end-text {
+	text-align: center;
 }
 .blinking{
  	animation: blinkingText 1s infinite;
 }
 @keyframes blinkingText{
-	0%{color: #fff}
-	49%{color: #fff}
-	50%{color: transparent}
-	99%{color: transparent}
-	100%{color: #fff}
+	0%{
+		color: #ffffff;
+		text-shadow: 1px 1px #222222;
+	}
+	49%{
+		color: #ffffff;
+		text-shadow: 1px 1px #222222;
+	}
+	50%{
+		color: transparent;
+		text-shadow: 1px 1px transparent;
+	}
+	99%{
+		color: transparent;
+		text-shadow: 1px 1px transparent;
+	}
+	100%{
+		color: #ffffff;
+		text-shadow: 1px 1px #222222;
+	}
 }
