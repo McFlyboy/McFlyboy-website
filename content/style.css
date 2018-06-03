@@ -2,10 +2,10 @@ html, body {
 	background-color: #333333;
 	color: white;
 	text-shadow: 1px 1px #222222;
-	font-family: consolas;
+	font-family: console;
 	font-size: 20px;
 }
-#header-section {
+header {
 	background-color: #333333;
 	padding: 5px;
 	padding-top: 25px;
@@ -16,7 +16,7 @@ html, body {
 	border-bottom: solid 1px;
 	z-index: 1;
 }
-#header-section ul {
+header ul {
 	background-color: #555555;
 	list-style-type: none;
 	margin-left: 0px;
@@ -27,12 +27,12 @@ html, body {
 	overflow: hidden;
 	border-radius: 5px;
 }
-#header-section li {
+header li {
 	float: left;
 	padding: 10px;
 	margin: 0px;
 }
-#header-section a {
+header a {
 	color: white;
 	text-decoration: none;
 }
@@ -51,20 +51,20 @@ html, body {
 	margin: 0;
 	margin-top: -8px;
 }
-#main-section {
+section {
 	position: absolute;
 	text-align: center;
 	width: 99%;
 	z-index: 0;
 	top: 190px;
 }
-#main-section h1 {
+section h1 {
 	font-size: 45px;
 }
-#main-section h2 {
+section h2 {
 	text-align: center;
 }
-#main-section article {
+section article {
 	background-color: #555555;
 	border-radius: 5px;
 	width: 60%;
@@ -73,7 +73,7 @@ html, body {
 	margin: auto;
 	margin-top: 70px;
 }
-#main-section a {
+section a {
 	color: #ff6666;
 }
 #end-text {
@@ -103,4 +103,8 @@ html, body {
 		color: #ffffff;
 		text-shadow: 1px 1px #222222;
 	}
+}
+@font-face {
+	font-family: console;
+	src: url(fonts/consola.ttf);
 }
