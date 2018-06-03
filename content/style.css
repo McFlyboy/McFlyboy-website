@@ -5,7 +5,7 @@ html, body {
 	font-family: console;
 	font-size: 20px;
 }
-header {
+#header-section {
 	background-color: #333333;
 	padding: 5px;
 	padding-top: 25px;
@@ -16,7 +16,7 @@ header {
 	border-bottom: solid 1px;
 	z-index: 1;
 }
-header ul {
+#header-section ul {
 	background-color: #555555;
 	list-style-type: none;
 	margin-left: 0px;
@@ -27,12 +27,12 @@ header ul {
 	overflow: hidden;
 	border-radius: 5px;
 }
-header li {
+#header-section li {
 	float: left;
 	padding: 10px;
 	margin: 0px;
 }
-header a {
+#header-section a {
 	color: white;
 	text-decoration: none;
 }
@@ -51,20 +51,20 @@ header a {
 	margin: 0;
 	margin-top: -8px;
 }
-section {
+#main-section {
 	position: absolute;
 	text-align: center;
 	width: 99%;
 	z-index: 0;
 	top: 190px;
 }
-section h1 {
+#main-section h1 {
 	font-size: 45px;
 }
-section h2 {
+#main-section h2 {
 	text-align: center;
 }
-section article {
+#main-section article {
 	background-color: #555555;
 	border-radius: 5px;
 	width: 60%;
@@ -73,7 +73,7 @@ section article {
 	margin: auto;
 	margin-top: 70px;
 }
-section a {
+#main-section a {
 	color: #ff6666;
 }
 #end-text {
