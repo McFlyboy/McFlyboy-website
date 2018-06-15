@@ -76,6 +76,23 @@ html, body {
 #main-section a {
 	color: #ff6666;
 }
+#main-section button {
+	background-color: #d54444;
+	color: white;
+	text-shadow: 1px 1px #222222;
+	border: none;
+	border-radius: 3px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	transition: 0.2s;
+}
+#main-section button:hover {
+	background-color: #e54444;
+	cursor: pointer;
+}
 #end-text {
 	text-align: center;
 }

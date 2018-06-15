@@ -29,7 +29,15 @@
 				<p>
 					This page is still under construction!
 				</p>
+				<button id="itch-button">Get the game here!</button>
 			</article>
 		</section>
 	</body>
+	<script type="text/javascript" src="https://static.itch.io/api.js"></script>
+	<script type="text/javascript">
+		Itch.attachBuyButton(document.getElementById("itch-button"), {
+			user: "mcflyboy",
+			game: "project1996"
+		});
+	</script>
 </html>
