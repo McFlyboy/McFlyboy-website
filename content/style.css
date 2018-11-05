@@ -126,5 +126,5 @@ html, body {
 }
 @font-face {
 	font-family: console;
-	src: url(fonts/consola.ttf);
+	src: url("fonts/consola.ttf");
 }

@@ -1,0 +1,62 @@
+body {
+	background-color: #333333;
+	color: white;
+	text-shadow: 1px 1px #222222;
+	font-family: console;
+}
+main {
+	position: absolute;
+	margin-top: 235px;
+}
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+article {
+	background-color: #555555;
+	font-size: 20px;
+	width: 60%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: auto;
+	margin-top: 70px;
+	border-radius: 5px;
+}
+#thank-you {
+	margin-top: 60px;
+	text-align: center;
+}
+.highlighted {
+	color: #ffff00;
+}
+.blinking{
+ 	animation: blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+	0%{
+		color: #ffffff;
+		text-shadow: 1px 1px #222222;
+	}
+	49%{
+		color: #ffffff;
+		text-shadow: 1px 1px #222222;
+	}
+	50%{
+		color: transparent;
+		text-shadow: 1px 1px transparent;
+	}
+	99%{
+		color: transparent;
+		text-shadow: 1px 1px transparent;
+	}
+	100%{
+		color: #ffffff;
+		text-shadow: 1px 1px #222222;
+	}
+}
+@font-face {
+	font-family: console;
+	src: url("fonts/consola.ttf");
+}

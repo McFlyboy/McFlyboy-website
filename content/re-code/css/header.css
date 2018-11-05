@@ -1,0 +1,62 @@
+/*header {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	background-color: #333333;
+	box-sizing: border-box;
+	padding: 17px;
+	border-bottom: solid 1px white;
+}
+header a {
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px #222222;
+	font-size: 30px;
+	font-family: console;
+	float: left;
+}
+#dir {
+	margin-top: 13px;
+	margin-bottom: 13px;
+	margin-right: 17px;
+}
+#commands {
+	background-color: #555555;
+	overflow: hidden;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.command {
+	padding: 8px;
+	margin: 5px;
+	border-radius: 3px;
+	transition: 0.2s;
+}
+.command:hover {
+	background-color: #777777;
+}*/
+header {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	background-color: #333333;
+	box-sizing: border-box;
+	padding: 17px;
+	border-bottom: solid 1px white;
+}
+header a {
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px #222222;
+	font-size: 30px;
+	font-family: console;
+}
+#commands {
+	background-color: #555555;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: console;
+	src: url("../fonts/consola.ttf");
+}
